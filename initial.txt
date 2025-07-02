@@ -1,0 +1,6 @@
+initial
+	[single statement]
+
+initial begin
+	[multiple statements]
+end
