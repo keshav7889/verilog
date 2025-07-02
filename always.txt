@@ -1,0 +1,6 @@
+always @ (event)
+	[statement]
+
+always @ (event) begin
+	[multiple statements]
+end
