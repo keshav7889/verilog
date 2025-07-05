@@ -1,0 +1,7 @@
+begin : name_seq
+	[statements]
+end
+
+fork : name_fork
+	[statements]
+join
