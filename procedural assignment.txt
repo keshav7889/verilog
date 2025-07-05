@@ -1,0 +1,12 @@
+reg [7:0]  data;
+integer    count;
+real       period;
+
+initial begin
+	data = 8'h3e;
+	period = 4.23;
+	count = 0;
+end
+
+always @ (posedge clk)
+	count++;
