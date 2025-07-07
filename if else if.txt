@@ -1,0 +1,25 @@
+// if statement without else part
+if (expression)
+	[statement]
+
+// if statment with an else part
+if (expression)
+	[statement]
+else
+	[statement]
+
+// if else for multiple statements should be
+// enclosed within "begin" and "end"
+if (expression) begin
+	[multiple statements]
+end else begin
+	[multiple statements]
+end
+
+// if-else-if statement
+if (expression)
+	[statement]
+else if (expression)
+	[statement]
+else
+	[statement]
