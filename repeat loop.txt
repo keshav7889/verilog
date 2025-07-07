@@ -1,0 +1,18 @@
+syntax
+repeat ([num_of_times]) begin
+	[statements]
+end
+
+repeat ([num_of_times]) @ ([some_event]) begin
+	[statements]
+end
+
+example 
+
+module my_design;
+	initial begin
+		repeat(4) begin
+			$display("This is a new iteration ...");
+		end
+	end
+endmodule
